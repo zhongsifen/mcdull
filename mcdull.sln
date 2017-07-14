@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mcdull", "mcdull\mcdull.vcxproj", "{EC8ACE4D-6F33-42DA-8906-3031525E88C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "appmcdull", "appmcdull\appmcdull.vcxproj", "{606890F8-B599-4412-94AD-85B46E45583C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC8ACE4D-6F33-42DA-8906-3031525E88C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC8ACE4D-6F33-42DA-8906-3031525E88C5}.Debug|Win32.Build.0 = Debug|Win32
+		{EC8ACE4D-6F33-42DA-8906-3031525E88C5}.Release|Win32.ActiveCfg = Release|Win32
+		{EC8ACE4D-6F33-42DA-8906-3031525E88C5}.Release|Win32.Build.0 = Release|Win32
+		{606890F8-B599-4412-94AD-85B46E45583C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{606890F8-B599-4412-94AD-85B46E45583C}.Debug|Win32.Build.0 = Debug|Win32
+		{606890F8-B599-4412-94AD-85B46E45583C}.Release|Win32.ActiveCfg = Release|Win32
+		{606890F8-B599-4412-94AD-85B46E45583C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

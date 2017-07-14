@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Enc">
+      <UniqueIdentifier>{ab3bb56b-7800-4802-bc40-5edfb1cd805e}</UniqueIdentifier>
+      <Extensions>.c</Extensions>
+    </Filter>
+    <Filter Include="Enc\enc_h">
+      <UniqueIdentifier>{7957482d-8974-41fe-8341-bc24a9b73ed7}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{141537e1-d29b-4137-b67e-123d20e9d468}</UniqueIdentifier>
+      <Extensions>.c;.h;</Extensions>
+    </Filter>
+    <Filter Include="Core\core_h">
+      <UniqueIdentifier>{49733828-0233-48fd-b24d-d345c4774d65}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="McDull">
+      <UniqueIdentifier>{c8a2efc9-ae18-4202-9b79-b69d2a795be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dull">
+      <UniqueIdentifier>{324c36bb-0eb9-4b28-b637-b98287444029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="McDull\McDull_h">
+      <UniqueIdentifier>{6952b6c9-90d3-46bd-9b37-749cedf2990f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Swataw">
+      <UniqueIdentifier>{3a402830-9768-4801-b3d9-7bd94f914c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Swataw\Swataw_h">
+      <UniqueIdentifier>{b6fd0f63-06cc-46bf-9820-55f3fc3d251c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="encoder\analyse.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\cabac.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\cavlc.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\encoder.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\lookahead.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\macroblock.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\me.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\ratecontrol.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="common\rectangle.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="encoder\set.c">
+      <Filter>Enc</Filter>
+    </ClCompile>
+    <ClCompile Include="common\bitstream.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cabac.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\common.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\cpu.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\dct.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\deblock.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\frame.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\macroblock.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mc.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\mvpred.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\osdep.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\pixel.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\predict.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\quant.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\set.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="common\vlc.c">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull_core.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull_swataw.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull_swataw_p_best.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull_swataw_p_fast.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull_swataw_p_good.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="mcdull_swataw_p_skip.c">
+      <Filter>McDull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_analyse.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_analyse_p.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_analyse_p_best.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_analyse_p_fast.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_analyse_p_good.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_analyse_p_skip.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_macroblock_p.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_me.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_me_0.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_me_1.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="dull_encoder.c">
+      <Filter>Dull</Filter>
+    </ClCompile>
+    <ClCompile Include="swataw.c">
+      <Filter>Swataw</Filter>
+    </ClCompile>
+    <ClCompile Include="swataw_core.c">
+      <Filter>Swataw</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="encoder\analyse.h">
+      <Filter>Enc\enc_h</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\macroblock.h">
+      <Filter>Enc\enc_h</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\me.h">
+      <Filter>Enc\enc_h</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\ratecontrol.h">
+      <Filter>Enc\enc_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\bitstream.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cabac.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\common.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\cpu.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\dct.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\frame.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\macroblock.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\mc.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\osdep.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\pixel.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\predict.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\quant.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\set.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="encoder\set.h">
+      <Filter>Enc\enc_h</Filter>
+    </ClInclude>
+    <ClInclude Include="common\rectangle.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="mcdull.h">
+      <Filter>McDull\McDull_h</Filter>
+    </ClInclude>
+    <ClInclude Include="mcdull_core.h">
+      <Filter>McDull\McDull_h</Filter>
+    </ClInclude>
+    <ClInclude Include="mcdull_dull.h">
+      <Filter>McDull\McDull_h</Filter>
+    </ClInclude>
+    <ClInclude Include="mcdull_x264.h">
+      <Filter>McDull\McDull_h</Filter>
+    </ClInclude>
+    <ClInclude Include="x264.h">
+      <Filter>Core\core_h</Filter>
+    </ClInclude>
+    <ClInclude Include="swataw.h">
+      <Filter>Swataw\Swataw_h</Filter>
+    </ClInclude>
+    <ClInclude Include="swataw_core.h">
+      <Filter>Swataw\Swataw_h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mcdull.def" />
+  </ItemGroup>
+</Project>

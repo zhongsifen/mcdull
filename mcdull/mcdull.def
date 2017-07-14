@@ -1,0 +1,16 @@
+LIBRARY	"mcdull"
+
+EXPORTS
+    mcdull_new
+    mcdull_delete
+    
+    mcdull_open
+    mcdull_close
+    
+    mcdull_set_bframe
+    mcdull_set_keyint
+    mcdull_set_qp
+    
+    mcdull_encode_header
+    mcdull_encode
+    mcdull_encode_flush
